@@ -5,7 +5,7 @@ compression-level = 9         # compression level for module zips. between 1 and
 enable-magisk-update = true   # set this to false if you do not want to receive updates from magisk app
 parallel-jobs = 3             # max number of concurrent building jobs
 update-prebuilts = true       # dont touch this
-build-mindetach-module = true
+build-mindetach-module = false
 
 
 [YouTube]
@@ -23,9 +23,9 @@ rip-libs = true
 
 [Music-arm64]
 build-mode = "both"
-app-name = "Music"
+app-name = "YouTube-Music"
 excluded-patches = ""
-included-patches = ""
+included-patches = "compact-header"
 version = "auto"
 microg-patch = "music-microg-support"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
@@ -34,63 +34,12 @@ arch = "arm64-v8a"
 
 [Music-arm]
 build-mode = "both"
-app-name = "Music"
+app-name = "YouTube-Music"
 excluded-patches = ""
-included-patches = ""
+included-patches = "compact-header"
 version = "auto"
 microg-patch = "music-microg-support"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 module-prop-name = "ytmusicrv-arm-magisk"
 arch = "arm-v7a"
 
-[Twitter]
-build-mode = "apk"
-excluded-patches = ""
-version = "latest"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/twitter-inc/twitter/"
-
-[Reddit]
-build-mode = "apk"
-version = "latest"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
-
-[Twitch]
-build-mode = "apk"
-version = "latest"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
-merge-integrations = true
-
-[Tiktok]
-build-mode = "apk"
-version = "27.2.5"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
-merge-integrations = true
-
-[Spotify]
-enabled = false
-build-mode = "apk"
-version = "latest"
-
-[TickTick]
-enabled = false
-build-mode = "apk"
-version = "latest"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/appest-inc/ticktick-to-do-list-with-reminder-day-planner/"
-
-[WarnWetter]
-enabled = false
-version = "latest"
-build-mode = "apk"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/appest-inc/deutscher-wetterdienst/warnwetter/"
-
-[Backdrops]
-enabled = false
-build-mode = "apk"
-version = "latest"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/backdrops/backdrops-wallpapers/"
-
-[Windy]
-enabled = false
-build-mode = "apk"
-version = "latest"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/windy-weather-world-inc/windy-wind-weather-forecast/"

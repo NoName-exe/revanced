@@ -13,7 +13,7 @@ if [ "${GITHUB_TOKEN+x}" ]; then
 else
 	GH_AUTH_HEADER=""
 fi
-GITHUB_REPOSITORY=${GITHUB_REPOSITORY:-$"j-hc/revanced-magisk-module"}
+GITHUB_REPOSITORY=${GITHUB_REPOSITORY:-$"NoName-exe/revanced"}
 NEXT_VER_CODE=${NEXT_VER_CODE:-$(date +'%Y%m%d')}
 WGET_HEADER="User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:108.0) Gecko/20100101 Firefox/108.0"
 DRYRUN=false
@@ -311,7 +311,7 @@ build_rv() {
 		module_prop "${args[module_prop_name]}" \
 			"${args[app_name]} ReVanced" \
 			"$version" \
-			"${args[app_name]} ReVanced Magisk module" \
+			"${args[app_name]} ReVanced Magisk Module" \
 			"https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/update/${upj}" \
 			"$base_template"
 
@@ -341,7 +341,7 @@ module_prop() {
 name=${2}
 version=v${3}
 versionCode=${NEXT_VER_CODE}
-author=j-hc
+author=NoName-exe
 description=${4}" >"${6}/module.prop"
 
 	if [ "$ENABLE_MAGISK_UPDATE" = true ]; then echo "updateJson=${5}" >>"${6}/module.prop"; fi
