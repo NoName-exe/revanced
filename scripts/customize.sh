@@ -41,7 +41,7 @@ else
 fi
 BASEPATHLIB=${BASEPATH%base.apk}lib/${ARCH}
 if [ -z "$(ls -A1 ${BASEPATHLIB})" ]; then
-	ui_print "* Extracting native libs"
+	ui_print "- Extracting native libs"
 	if ! op=$(unzip -j $MODPATH/__PKGNAME.apk lib/${ARCH_LIB}/* -d ${BASEPATHLIB} 2>&1); then
 		ui_print "ERROR: extracting native libs failed"
 		abort "$op"
