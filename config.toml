@@ -5,8 +5,9 @@ enable-magisk-update = true # set this to false if you do not want to receive up
 parallel-jobs = 3 # max number of concurrent building jobs
 build-mindetach-module = false
 
+# add 'enabled = false' for not patching a specific app
 [YouTube]
-enabled = true # add 'enabled = false' key to entries to not build them
+enabled = true
 build-mode = "both" # 'both', 'apk' or 'module'
 excluded-patches = "debugging" # whitespace seperated list of patches to exclude (multiline strings are not supported)
 included-patches = "" # whitespace seperated list of patches to include
