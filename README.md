@@ -17,6 +17,7 @@ Get the [latest CI release](https://github.com/NoName-exe/revanced/releases/late
   * Receive updates from Magisk app.
   * Should not break safetynet or trigger root detections used by certain apps.
   * Handle installation of the correct version of the stock app and all that.
+  * Support Magisk and KernelSU.
 
 ## Notes
 
