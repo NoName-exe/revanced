@@ -2,7 +2,6 @@
 
 # ReVanced
 
-[![Build Modules](https://github.com/NoName-exe/revanced/actions/workflows/build.yml/badge.svg)](https://github.com/NoName-exe/revanced/actions/workflows/build.yml)
 [![CI](https://github.com/NoName-exe/revanced/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/NoName-exe/revanced/actions/workflows/ci.yml)
 
 Get the [latest CI release](https://github.com/NoName-exe/revanced/releases/latest).
