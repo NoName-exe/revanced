@@ -20,13 +20,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if ! git checkout update; then
+          if ! git checkout origin/update build.md; then
             echo "first time building!"
             echo "SHOULD_BUILD=1" >> $GITHUB_OUTPUT
           else
             UPDATE_CFG=$(./build.sh config.toml --config-update)
             if [ "$UPDATE_CFG" ]; then
-              echo "$UPDATE_CFG" > config.toml
               echo "SHOULD_BUILD=1" >> $GITHUB_OUTPUT
             else
               echo "SHOULD_BUILD=0" >> $GITHUB_OUTPUT
