@@ -6,7 +6,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 [YouTube]
 build-mode = "both"                                                   # 'both', 'apk' or 'module'
-excluded-patches = "enable-debugging"                                 # space-seperated patches to exclude (multiline strings are not supported)
+excluded-patches = "'Enable debugging'"                                 # space-seperated patches to exclude (multiline strings are not supported)
 included-patches = ""                                                 # space-seperated patches to include (non-excluded patches are included by default)
 version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
@@ -16,7 +16,7 @@ module-prop-name = "yt-rv"
 build-mode = "both"
 app-name = "YouTube-Music"
 excluded-patches = ""
-included-patches = "compact-header"
+included-patches = "'Compact header'"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 module-prop-name = "ytm-rv"
