@@ -1,6 +1,6 @@
-YouTube: 19.03.35  
-Music (arm64-v8a): 6.36.54  
-Music (arm-v7a): 6.36.54  
+YouTube: 19.04.37  
+Music (arm64-v8a): 6.37.50  
+Music (arm-v7a): 6.37.50  
 
 Install [Vanced Microg](https://github.com/inotia00/VancedMicroG/releases) or [mMicroG](https://github.com/inotia00/mMicroG/releases) to be able to use non-root YouTube or YouTube-Music.  
 Use [mindetach](https://github.com/j-hc/mindetach-magisk) or [zygisk-detach](https://github.com/j-hc/zygisk-detach) to block Play Store from updating YouTube and YouTube-Music.  
@@ -9,6 +9,6 @@ Use [mindetach](https://github.com/j-hc/mindetach-magisk) or [zygisk-detach](htt
 
 Changelog:  
 CLI: j-hc/revanced-cli-4.3.0-all.jar  
-Integrations: ReVanced/revanced-integrations-1.2.1.apk  
-Patches: ReVanced/revanced-patches-4.0.2.jar  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v4.0.2)  
+Integrations: ReVanced/revanced-integrations-1.3.0.apk  
+Patches: ReVanced/revanced-patches-4.1.0.jar  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v4.1.0)  
