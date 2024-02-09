@@ -9,6 +9,6 @@ Use [mindetach](https://github.com/j-hc/mindetach-magisk) or [zygisk-detach](htt
 
 Changelog:  
 CLI: j-hc/revanced-cli-4.3.0-all.jar  
-Integrations: ReVanced/revanced-integrations-1.3.0.apk  
-Patches: ReVanced/revanced-patches-4.1.0.jar  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v4.1.0)  
+Integrations: ReVanced/revanced-integrations-1.3.2.apk  
+Patches: ReVanced/revanced-patches-4.2.0.jar  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v4.2.0)  
