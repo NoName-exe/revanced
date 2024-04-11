@@ -18,14 +18,12 @@ Get the [latest CI release](https://github.com/NoName-exe/revanced/releases/late
   * Support Magisk and KernelSU.
 
 ## Notes
-* Use [mindetach](https://github.com/j-hc/mindetach-magisk) or [zygisk-detach](https://github.com/j-hc/zygisk-detach) to block Play Store from updating YouTube and YouTube-Music.
-* Non-root versions of YouTube and YouTube-Music require [Vanced MicroG](https://github.com/inotia00/VancedMicroG/releases/latest) or [mMicroG](https://github.com/inotia00/mMicroG/releases/latest) to work.
+* Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to block Play Store from updating YouTube and YouTube-Music.
+* Non-root versions of YouTube and YouTube-Music require [MicroG](https://github.com/ReVanced/GmsCore/releases) to work.
 
 # Credits
 [j-hc](https://github.com/j-hc) for [mindetach](https://github.com/j-hc/mindetach-magisk), [zygisk-detach](https://github.com/j-hc/zygisk-detach) and the [script on which this is based on](https://github.com/j-hc/revanced-magisk-module).
 
-[ReVanced Team](https://github.com/revanced) for their [patches](https://github.com/revanced/revanced-patches) and everything else that they do.
-
-[inotia00](https://github.com/inotia00) for [Vanced MicroG](https://github.com/inotia00/VancedMicroG) and [mMicroG](https://github.com/inotia00/mMicroG).
+[ReVanced Team](https://github.com/revanced) for their [patches](https://github.com/revanced/revanced-patches),[MicroG](https://github.com/ReVanced/GmsCore/releases)  and everything else that they do.
 
 [Gnad Gnaoh](https://github.com/gnadgnaoh) for helping me figure some stuff out.
