@@ -87,7 +87,7 @@ install() {
 	fi
 	if ! op=$(pm install-commit "$SES" 2>&1); then
 		if echo "$op" | grep -q INSTALL_FAILED_VERSION_DOWNGRADE; then
-			ui_print "* INSTALL_FAILED_VERSION_DOWNGRADE. Uninstalling..."
+			ui_print "- INSTALL_FAILED_VERSION_DOWNGRADE. Uninstalling..."
 			pm uninstall -k --user 0 $PKG_NAME
 			return 1
 		fi
