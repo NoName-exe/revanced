@@ -22,7 +22,7 @@ Get the [latest CI release](https://github.com/NoName-exe/revanced/releases/late
 * Non-root versions of YouTube and YouTube-Music require [MicroG](https://github.com/ReVanced/GmsCore/releases) to work.
 
 # Credits
-[j-hc](https://github.com/j-hc) for [mindetach](https://github.com/j-hc/mindetach-magisk), [zygisk-detach](https://github.com/j-hc/zygisk-detach) and the [script on which this is based on](https://github.com/j-hc/revanced-magisk-module).
+[j-hc](https://github.com/j-hc) for [zygisk-detach](https://github.com/j-hc/zygisk-detach) and the [script on which this is based on](https://github.com/j-hc/revanced-magisk-module).
 
 [ReVanced Team](https://github.com/revanced) for their [patches](https://github.com/revanced/revanced-patches),[MicroG](https://github.com/ReVanced/GmsCore/releases)  and everything else that they do.
 
