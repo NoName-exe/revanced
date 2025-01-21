@@ -1,6 +1,6 @@
 {
-  "version": "v19.47.53 (patches: 5.8.1)",
-  "versionCode": 77,
-  "zipUrl": "https://github.com/NoName-exe/revanced/releases/download/77/youtube-revanced-magisk-v19.47.53-all.zip",
+  "version": "v19.47.53 (patches: 5.9.0)",
+  "versionCode": 78,
+  "zipUrl": "https://github.com/NoName-exe/revanced/releases/download/78/youtube-revanced-magisk-v19.47.53-all.zip",
   "changelog": "https://raw.githubusercontent.com/NoName-exe/revanced/update/build.md"
 }
