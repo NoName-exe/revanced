@@ -1,4 +1,4 @@
-enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
+enable-module-update = true # set this to false if you do not want to receive updates for the module
 parallel-jobs = 1
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
@@ -12,6 +12,7 @@ excluded-patches = "'Enable debugging'"
 included-patches = ""                                                 
 version = "auto"                                                   
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 module-prop-name = "yt-rv"
 
 [Music]
@@ -21,5 +22,6 @@ excluded-patches = ""
 included-patches = "'Compact header'"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 module-prop-name = "ytm-rv"
 arch = "both"
