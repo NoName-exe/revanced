@@ -692,7 +692,7 @@ build_rv() {
 			"${args[module_prop_name]}" \
 			"${app_name} ${args[rv_brand]}" \
 			"${version} (patches ${patches_ver})" \
-			"${app_name} ${args[rv_brand]} Magisk Module" \
+			"${app_name} ${args[rv_brand]} Module" \
 			"https://raw.githubusercontent.com/${GITHUB_REPOSITORY-}/update/${upj}" \
 			"$base_template"
 
