@@ -14,7 +14,7 @@ Get the [latest CI release](https://github.com/NoName-exe/revanced/releases/late
   * Recompile invalidated odex for YouTube and YouTube-Music for faster usage.
   * Receive updates from Magisk app.
   * Should not break safetynet or trigger root detections used by certain apps.
-  * Handle installation of the correct version of the stock app and all that.\
+  * Handle installation of the correct version of the stock app and all that.
   * Support Magisk and KernelSU.
 
 ## Notes
